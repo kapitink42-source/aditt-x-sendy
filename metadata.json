@@ -1,0 +1,6 @@
+{
+  "name": "Survival Horror Stealth Game",
+  "description": "Hadapi ketakutan terdalammu. Sembunyi, tahan napas, dan hindari Sang Pengintai dalam game horor stealth atmosferik dengan pencahayaan dinamis 2D raycasting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

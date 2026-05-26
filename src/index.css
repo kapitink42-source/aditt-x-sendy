@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@300;400;500;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+/* Elegant Dark Vignette and Fine-line patterns */
+.elegant-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.08) 0.5px, transparent 0.5px);
+  background-size: 8px 8px;
+}
+
+.elegant-vignette {
+  background: radial-gradient(circle at 50% 50%, transparent 20%, rgba(5, 5, 5, 0.98) 100%);
+}
+
+.vhs-scanlines {
+  background: linear-gradient(rgba(5, 5, 5, 0) 50%, rgba(0, 0, 0, 0.4) 50%);
+  background-size: 100% 4px;
+}
+
+/* Fine retro custom borders */
+.border-elegant {
+  border-color: rgba(255, 255, 255, 0.06);
+}
+
+.border-elegant-active {
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.glow-red {
+  box-shadow: 0 0 10px rgba(185, 28, 28, 0.4);
+}
+
+.glow-white {
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.12);
+}
